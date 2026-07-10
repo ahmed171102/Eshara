@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Derived Keras-3-compatible copies of legacy .h5 models (see model-services/legacy_h5.py)
+*.compat.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Build/cache
+.cache/
+coverage/
+
+# Databases
+*.db
+*.db-journal
